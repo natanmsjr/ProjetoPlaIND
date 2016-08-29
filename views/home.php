@@ -1,4 +1,4 @@
-<!-- Header Carousel de Imagens -->
+    <!-- Header Carousel de Imagens -->
     <header id="myCarousel" class="carousel slide">
         
         <!-- Indicadores -->
@@ -43,10 +43,11 @@
         <!-- Conheça a Plataforma -->
         <div class="row">
             <div class="col-lg-12">
-                <h2 class="page-header">Conheça a Plataforma</h2>
-            </div>
-            <div>
-                <h3>Acompanhe o andamento do seu pedido de proteção <br> de um modo muito mais simples, rápido e eficiente</h3>
+                <h3 class="page-header">Conheça a Plataforma</h3>
+                
+                <div class="text-center">
+                    <h4>Acompanhe o andamento do seu pedido de proteção de um modo muito mais simples, rápido e eficiente</h4>
+                </div>
             </div>
         </div>
         <!-- /.row -->
@@ -124,19 +125,20 @@
         <div class="row">
             <div class="col-lg-12">
                 <h2 class="page-header">Suporte a diversos dispositivos</h2>
-            </div>
-            <div class="col-md-6">
-                <!-- <p>The Modern Business template by Start Bootstrap includes:</p>
-                <ul>
-                    <li><strong>Acesso em diferente aparelhos</strong></li>
-                    <li>Layout Flexível</li>
-                    <li>Ação responsiva</li>
-					<li>Design limpo</li>                    
-                </ul>-->
-                <h3>Queremos que você tenha a melhor experiência. Acompanhe em qualquer lugar.</h3>
-            </div> 
-            <div class="col-md-6">
-                <img class="img-responsive" src="../assets/images/freatures/responsive.png" alt="">
+            
+                <div class="col-md-6">
+                    <!-- <p>The Modern Business template by Start Bootstrap includes:</p>
+                    <ul>
+                        <li><strong>Acesso em diferente aparelhos</strong></li>
+                        <li>Layout Flexível</li>
+                        <li>Ação responsiva</li>
+                                            <li>Design limpo</li>                    
+                    </ul>-->
+                    <h4>Queremos que você tenha a melhor experiência. Acompanhe em qualquer lugar.</h4>
+                </div> 
+                <div class="col-md-6">
+                    <img class="img-responsive" src="../assets/images/freatures/responsive.png" alt="">
+                </div>
             </div>
         </div>
         <!-- /.row -->
@@ -145,17 +147,18 @@
         <div class="row">
             <div class="col-lg-12">
                 <h2 class="page-header">Instituição</h2>
+            
+                <div class="col-md-6">
+                    <!-- <p>The Modern Business template by Start Bootstrap includes:</p>
+                    <ul>
+                        <li><strong>Acesso em diferente aparelhos</strong></li>
+                        <li>Layout Flexível</li>
+                        <li>Ação responsiva</li>
+                        <li>Design limpo</li>                    
+                    </ul>-->
+                    <h4>Informar instituição</h4>
+                </div> 
             </div>
-            <div class="col-md-6">
-                <!-- <p>The Modern Business template by Start Bootstrap includes:</p>
-                <ul>
-                    <li><strong>Acesso em diferente aparelhos</strong></li>
-                    <li>Layout Flexível</li>
-                    <li>Ação responsiva</li>
-                    <li>Design limpo</li>                    
-                </ul>-->
-                <h3>Informar instituição</h3>
-            </div> 
         </div>
                 
     </div> <!-- Corpo da página -->

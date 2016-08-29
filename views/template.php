@@ -57,16 +57,16 @@
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Propriedade Industrial <b class="caret"></b></a>
                             <ul class="dropdown-menu">
                                 <li>
-                                        <a href="#">Desenho Industrial</a>
+                                        <a href="/propriedade_industrial/desenho_industrial">Desenho Industrial</a>
                                 </li>
                                 <li>
-                                        <a href="#">Marca</a>
+                                        <a href="/propriedade_industrial/marca">Marca</a>
                                 </li>
                                 <li>
-                                        <a href="#">Patente</a>
+                                        <a href="/propriedade_industrial/patente">Patente</a>
                                 </li>
                                 <li>
-                                        <a href="#">Software</a>
+                                        <a href="/propriedade_industrial/software">Software</a>
                                 </li>
                             </ul>
                         </li>
@@ -74,7 +74,7 @@
                                 <a href="#">Institucional</a>
                         </li>
                         <li>
-                                <a href="#">Contato</a>
+                                <a href="/contato">Contato</a>
                         </li>
                         <li>
                                 <a href="/login"><i class="glyphicon glyphicon-log-in"></i> Entre</a>
@@ -87,10 +87,10 @@
         </nav>
     </header>
     <!-- /cabeçalho-menu -->
-
+    
     <!-- Corpo da página -->
      <?php $this->loadViewInTemplate($viewName); ?>
-        
+    
     <!-- Rodapé -->
     <div class="container">
         

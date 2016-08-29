@@ -5,7 +5,7 @@ class contatoController extends controller {
         parent::__construct();
     }
 
-    public function index() {
+    /*public function index() {
         $dados = array(
             'aviso' => ''
         );
@@ -30,6 +30,10 @@ class contatoController extends controller {
         }
         
         $this->loadTemplate('contato', $dados);
+    }*/
+    
+    public function index(){
+        $this->loadTemplate('contato');
     }
 
 }
