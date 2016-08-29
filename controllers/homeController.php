@@ -1,4 +1,6 @@
 <?php
+//echo "Entrou homeController<br>";
+
 class homeController extends controller {
 
     public function __construct() {
@@ -6,12 +8,14 @@ class homeController extends controller {
     }
 
     public function index() {
-        $dados = array();
+        //$dados = array();
 
-        $portfolio = new Portfolio();
-        $dados['portfolio'] = $portfolio->getTrabalhos(8);
+        //$portfolio = new Portfolio();
+        //$dados['portfolio'] = $portfolio->getTrabalhos(8);
 
-        $this->loadTemplate('home', $dados);
+        //$this->loadTemplate('home', $dados);
+        
+        $this->loadTemplate('home');
     }
 
 }
