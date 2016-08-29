@@ -5,7 +5,6 @@
         <div class="row">
             <br>
             <div class="col-lg-12">
-                <br>
                 <ol class="breadcrumb">
                     <li><a href="/">Início</a></li>
                     <li class="active">Contato</li>
@@ -23,9 +22,9 @@
             </div>
             <!-- Contact Details Column -->
             <div class="col-md-4">
-                <h3>CINTTEC - Coordenação de Inovação e Transferêncioa de Tecnologia</h3>
+                <h3><strong>CINTTEC</strong><br><small>Universidade Federal de Sergipe</small></h3>
                 <p>
-                    Universidade Federal de Sergipe<br>Av. Marechal Rondon, S/N<br>Jardim Rosa Elze, São Cristóvão 49100-000<br>
+                    Av. Marechal Rondon, S/N<br>Jardim Rosa Elze, São Cristóvão 49100-000<br>
                 </p>
                 <p><i class="fa fa-phone"></i> 
                     <abbr title="Phone">P</abbr>: (79) 3194-6865</p>
@@ -33,7 +32,7 @@
                     <abbr title="Email">E</abbr>: <a href="mailto:name@example.com">cinttec.ufs@gmail.com</a>
                 </p>
                 <p><i class="fa fa-clock-o"></i> 
-                    <abbr title="Hours">H</abbr>: Monday - Friday: 9:00 AM to 5:00 PM</p>
+                    <abbr title="Hours">H</abbr>: Segunda - Sexta: 8:00h ás 17:00 </p>
                 <ul class="list-unstyled list-inline list-social-icons">
                     <li>
                         <a href="#"><i class="fa fa-facebook-square fa-2x"></i></a>

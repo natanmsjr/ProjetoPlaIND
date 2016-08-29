@@ -4,57 +4,46 @@
  */
 //echo "Entrou environment<br>";
 // Inicia o ambiente de desenvolvimento
+
 define('ENVIRONMENT', 'development');
 
 if(ENVIRONMENT == 'development') {
     // Caminho para a raiz
     define( 'SRCPATH', dirname( __FILE__ ) );
-
     // Caminho para a pasta de uploads
     //define( 'UP_ABSPATH', SRCPATH . '/views/_uploads' );
-
     // URL da home
     define( 'HOME_URI', 'http://www.plaind.pc' );
-
     // Nome do host da base de dados
     define( 'HOSTNAME', 'localhost' );
-
     // Nome do DB
     define( 'DB_NAME', 'plaind' );
-
     // Usuário do DB
     define( 'DB_USER', 'root' );
-
     // Senha do DB
     define( 'DB_PASSWORD', '8912' );
-
     // Charset da conexão PDO
     define( 'DB_CHARSET', 'utf8' );
 
+} elseif (ENVIRONMENT == 'debug') {
+    
+    define( 'SRCPATH', dirname( __FILE__ ) );
+    define( 'HOME_URI', 'http://www.plaind.pc' );
+    define( 'HOSTNAME', 'localhost' );
+    define( 'DB_NAME', 'plaind' );
+    define( 'DB_USER', 'root' );
+    define( 'DB_PASSWORD', '8912' );
+    define( 'DB_CHARSET', 'utf8' );
+    
 } elseif (ENVIRONMENT == 'host') {
     
     define( 'SRCPATH', dirname( __FILE__ ) );
- 
-    // Caminho para a pasta de uploads
-    //define( 'UP_ABSPATH', SRCPATH . '/views/_uploads' );
-
-    // URL da home
     define( 'HOME_URI', 'http://www.plaind.pc' );
-
-    // Nome do host da base de dados
     define( 'HOSTNAME', 'localhost' );
-
-    // Nome do DB
     define( 'DB_NAME', 'plaind' );
-
-    // Usuário do DB
     define( 'DB_USER', 'root' );
-
-    // Senha do DB
     define( 'DB_PASSWORD', '8912' );
-
-    // Charset da conexão PDO
     define( 'DB_CHARSET', 'utf8' );
+    
 }
-
 ?>
