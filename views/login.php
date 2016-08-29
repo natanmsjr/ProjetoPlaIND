@@ -7,7 +7,7 @@
             <h1 class="page-header">Login</h1>
             <ol class="breadcrumb">
                 <li>
-                    <a href="index.html">Início</a>
+                    <a href="/">Início</a>
                 </li>
                 <li class="active">Login</li>
             </ol>

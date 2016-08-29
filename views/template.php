@@ -44,7 +44,7 @@
                                 <span class="icon-bar"></span>
                                 <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="index.html"><strong>PlaIND</strong></a>
+                        <a class="navbar-brand" href="/"><strong>PlaIND</strong></a>
                 </div>
 
                 <!-- Páginas Menu -->
@@ -77,7 +77,7 @@
                                 <a href="#">Contato</a>
                         </li>
                         <li>
-                                <a href="login.html"><i class="glyphicon glyphicon-log-in"></i> Entre</a>
+                                <a href="/login"><i class="glyphicon glyphicon-log-in"></i> Entre</a>
                         </li>
                     </ul>
                 </div>
