@@ -5,25 +5,29 @@ class propriedade_industrialController extends controller {
     public function __construct() {
         parent::__construct();
     }
+      
+    public function index($dados = array()) {
+        $this->loadTemplate('propriedade_industrial', 'home', $dados);
+    }
 
-    public function desenho_industrial() {
+    public function desenho_industrial($dados = array()) {
         
-        $this->loadTemplate('desenho_industrial');
+        $this->loadTemplate('propriedade_industrial', 'desenho_industrial', $dados);
     }
     
-    public function marca() {
+    public function marca($dados = array()) {
                 
-        $this->loadTemplate('marca');
+        $this->loadTemplate('propriedade_industrial', 'marca', $dados);
     }
     
-    public function patente() {
+    public function patente($dados = array()) {
                 
-        $this->loadTemplate('patente');
+        $this->loadTemplate('propriedade_industrial', 'patente', $dados);
     }
     
-    public function software() {
+    public function software($dados = array()) {
                 
-        $this->loadTemplate('software');
+        $this->loadTemplate('propriedade_industrial', 'software', $dados);
     }
 
 }

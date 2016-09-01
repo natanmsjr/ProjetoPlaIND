@@ -8,14 +8,14 @@ class homeController extends controller {
     }
 
     public function index() {
-        //$dados = array();
+        $dados = array();
 
         //$portfolio = new Portfolio();
         //$dados['portfolio'] = $portfolio->getTrabalhos(8);
 
         //$this->loadTemplate('home', $dados);
         
-        $this->loadTemplate('home');
+        $this->loadTemplate('home','home', $dados);
     }
 
 }

@@ -89,7 +89,7 @@
     <!-- /cabeçalho-menu -->
     
     <!-- Corpo da página -->
-     <?php $this->loadViewInTemplate($viewName); ?>
+     <?php $this->loadViewInTemplate($controller, $viewName); ?>
     
     <!-- Rodapé -->
     <div class="container">
