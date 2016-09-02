@@ -1,7 +1,7 @@
 <?php
-//echo "Entrou Core<br>";
-class Core {
 
+class Core {
+    
     public function run() {
         $url = explode('index.php', $_SERVER['PHP_SELF'], 10);
         $url = end($url);
@@ -29,25 +29,21 @@ class Core {
             $currentController = 'homeController';
             $currentAction = 'index';
         }
-
-        
-        /*$c = new $currentController();
-        call_user_func_array(array($c, $currentAction), $params);*/
             
-        if (class_exists($currentController) && !empty($currentAction)) {
-            $c = new $currentController();
-            call_user_func_array(array($c, $currentAction), $params);
+        if (class_exists($currentController) && method_exists($currentController, $currentAction)) {
+            $controller = new $currentController();
+            call_user_func_array(array($controller, $currentAction), $params);
         
-        } elseif (class_exists($currentController) && empty($currentAction)) {
-            $c = new $currentController();
+        } elseif (class_exists($currentController) && !method_exists($currentController, $currentAction)) {
+            $controller = new $currentController();
             $currentAction = 'index';
-            call_user_func_array(array($c, $currentAction), $params);
+            call_user_func_array(array($controller, $currentAction), $params);
         }
         else {
-            $currentController = 'homeController';
-            $currentAction = 'page_not_found';
-            $c = new $currentController();
-            call_user_func_array(array($c, $currentAction), $params);
+            $currentController = 'errorController';
+            $currentAction = 'index';
+            $controller = new $currentController();
+            call_user_func_array(array($controller, $currentAction), $params);
         }
 
     }

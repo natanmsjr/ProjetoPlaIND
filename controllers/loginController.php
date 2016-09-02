@@ -6,9 +6,7 @@ class loginController extends controller {
         parent::__construct();
     }
 
-    public function index() {
-        $dados = array();
-        
+    public function index($dados = array()) {                
         $this->loadTemplate('home', 'login', $dados);
     }
 

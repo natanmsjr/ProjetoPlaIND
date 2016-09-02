@@ -1,5 +1,5 @@
 <?php
-//echo "Entrou controller<br>";
+
 class controller {
 
     protected $db;
@@ -24,9 +24,4 @@ class controller {
         //include 'views/'.$viewName.'.php';
         include 'views/'.$controller.'/'.$viewName.'.php';
     }
-
-    public function page_not_found() {
-        $this->loadTemplate('404');
-    }
-
 }

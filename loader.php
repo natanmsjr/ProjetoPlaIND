@@ -5,7 +5,7 @@
  * carrega a plataforma iniciando o Core()
  */
 
-//echo "Entrou load<br>";
+
 // Inicia sessão
 session_start();
 

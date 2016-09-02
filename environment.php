@@ -2,7 +2,7 @@
 /*
  * Inicializa as configuração do ambiente
  */
-//echo "Entrou environment<br>";
+
 // Inicia o ambiente de desenvolvimento
 
 define('ENVIRONMENT', 'development');

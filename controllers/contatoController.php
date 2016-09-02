@@ -1,8 +1,13 @@
 <?php
+
 class contatoController extends controller {
 
     public function __construct() {
         parent::__construct();
+    }
+    
+    public function index($dados = array()){
+        $this->loadTemplate('home', 'contato', $dados);
     }
 
     /*public function index() {
@@ -31,10 +36,4 @@ class contatoController extends controller {
         
         $this->loadTemplate('contato', $dados);
     }*/
-    
-    public function index(){
-        $dados = array();
-        $this->loadTemplate('home', 'contato', $dados);
-    }
-
 }

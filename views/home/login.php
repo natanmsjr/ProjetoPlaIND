@@ -7,7 +7,9 @@
             <br>
             <ol class="breadcrumb">
                 <li>
-                    <a href="/">Início</a>
+                    <? 
+                        echo "<a href='/".$currentController.'">Início</a>";
+                    ?>
                 </li>
                 <li class="active">Login</li>
             </ol>
@@ -36,11 +38,12 @@
                                 <label class="control-label" for="senha">Senha:</label>
                                 <input type="password" class="form-control"  id="senha" placeholder="Senha" style="width:260px"></input>
                             </div>
+                            <input type="checkbox" id="remember"> Lembere-me</input>
                         </div>
-                        <br></br>
+                        <br/>
                         <div class="control-group">
                             <div class="controls">
-                                    <button type="submit" class="btn btn-default">Entrar</button> <a href="index.html">Esqueceu sua senha?</a>
+                                <button type="submit" class="btn btn-default">Entrar</button> <a href="index.html">Esqueceu sua senha?</a>
                             </div>
                         </div>
                     </form>

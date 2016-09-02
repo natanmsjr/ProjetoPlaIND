@@ -12,15 +12,15 @@
             <div class="item active">
                 <div class="fill" style="background-image:url(../assets/images/myCarousel/bg1.jpg);"></div>
                 <div class="carousel-caption">
-                    <h3>Legenda</h3>
-                    <a class="btn btn-primary" href="#">Read More</a>
+                    <!-- <h3>Legenda</h3>
+                    <a class="btn btn-default" href="#">Read More</a> -->
                 </div>
             </div>
             <div class="item">
                 <div class="fill" style="background-image:url(../assets/images/myCarousel/bg2.jpg);"></div>
                 <div class="carousel-caption">
-                    <h3>Legenda</h3>
-                    <a class="btn btn-primary" href="#">Read More</a>
+                    <!-- <h3>Legenda</h3>
+                    <a class="btn btn-default" href="#">Read More</a> -->
                 </div>
             </div>
         </div>
@@ -125,40 +125,56 @@
         <div class="row">
             <div class="col-lg-12">
                 <h2 class="page-header">Suporte a diversos dispositivos</h2>
-            
-                <div class="col-md-6">
-                    <!-- <p>The Modern Business template by Start Bootstrap includes:</p>
-                    <ul>
-                        <li><strong>Acesso em diferente aparelhos</strong></li>
-                        <li>Layout Flexível</li>
-                        <li>Ação responsiva</li>
-                                            <li>Design limpo</li>                    
-                    </ul>-->
-                    <h4>Queremos que você tenha a melhor experiência. Acompanhe em qualquer lugar.</h4>
-                </div> 
-                <div class="col-md-6">
-                    <img class="img-responsive" src="../assets/images/freatures/responsive.png" alt="">
+                <div class="col-lg-6">
+                    <p>Queremos que você tenha a melhor experiência. Acompanhe em qualquer lugar.</p>
                 </div>
+            <div class="col-md-6">
+                <img class="img-responsive" src="../assets/images/freatures/responsive.png" alt="">
             </div>
         </div>
+        
         <!-- /.row -->
 		
-		<!-- Features Section -->
+        <!-- Instituição -->
         <div class="row">
             <div class="col-lg-12">
                 <h2 class="page-header">Instituição</h2>
             
-                <div class="col-md-6">
-                    <!-- <p>The Modern Business template by Start Bootstrap includes:</p>
-                    <ul>
-                        <li><strong>Acesso em diferente aparelhos</strong></li>
-                        <li>Layout Flexível</li>
-                        <li>Ação responsiva</li>
-                        <li>Design limpo</li>                    
-                    </ul>-->
-                    <h4>Informar instituição</h4>
-                </div> 
-            </div>
+                <div class="row">
+                    <!-- Map Column -->
+                    <div class="col-md-8">
+                        <!-- Embedded Google Map -->
+                        <iframe width="100%" height="400px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d62678.645469952295!2d-37.09312987870823!3d-10.931965232702705!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71ab2423841cf53%3A0xade52498616df289!2sUniversidade+Federal+de+Sergipe!5e0!3m2!1spt-BR!2sbr!4v1472482531190" width="600" height="450" frameborder="0" style="border:0" allowfullscreen"></iframe>
+                    </div>
+                    <!-- Contact Details Column -->
+                    <div class="col-md-4">
+                        <h3><strong>CINTTEC</strong><br><small>Universidade Federal de Sergipe</small></h3>
+                        <p>
+                            Av. Marechal Rondon, S/N<br>Jardim Rosa Elze, São Cristóvão 49100-000<br>
+                        </p>
+                        <p><i class="fa fa-phone"></i> 
+                            <abbr title="Phone"></abbr>: (79) 3194-6865</p>
+                        <p><i class="fa fa-envelope-o"></i> 
+                            <abbr title="Email"></abbr>: <a href="mailto:name@example.com">cinttec.ufs@gmail.com</a>
+                        </p>
+                        <p><i class="fa fa-clock-o"></i> 
+                            <abbr title="Hours"></abbr>: Segunda - Sexta: 8:00h ás 17:00 </p>
+                        <ul class="list-unstyled list-inline list-social-icons">
+                            <li>
+                                <a href="#"><i class="fa fa-facebook-square fa-2x"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-linkedin-square fa-2x"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-twitter-square fa-2x"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-google-plus-square fa-2x"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div> 
         </div>
-                
-    </div> <!-- Corpo da página -->
+    </div>

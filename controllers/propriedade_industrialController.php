@@ -7,7 +7,7 @@ class propriedade_industrialController extends controller {
     }
       
     public function index($dados = array()) {
-        $this->loadTemplate('propriedade_industrial', 'home', $dados);
+        $this->loadTemplate('propriedade_industrial', 'propriedade_industrial', $dados);
     }
 
     public function desenho_industrial($dados = array()) {
