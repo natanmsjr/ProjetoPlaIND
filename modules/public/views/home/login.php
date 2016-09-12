@@ -6,11 +6,7 @@
         <div class="col-lg-12">
             <br>
             <ol class="breadcrumb">
-                <li>
-                    <? 
-                        echo "<a href='/".$currentController.'">Início</a>";
-                    ?>
-                </li>
+                <li><a href='/'>Início</a></li>
                 <li class="active">Login</li>
             </ol>
         </div>
@@ -54,4 +50,3 @@
         </div>
         
     </div>
-

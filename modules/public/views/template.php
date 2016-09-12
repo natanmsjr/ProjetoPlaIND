@@ -44,7 +44,7 @@
                                 <span class="icon-bar"></span>
                                 <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="/"><strong>PlaIND</strong></a>
+                    <a class="navbar-brand" href="/"><strong>PlaIND</strong></a>
                 </div>
 
                 <!-- Páginas Menu -->
@@ -57,27 +57,27 @@
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Propriedade Industrial <b class="caret"></b></a>
                             <ul class="dropdown-menu">
                                 <li>
-                                        <a href="/propriedade_industrial/desenho_industrial">Desenho Industrial</a>
+                                    <a href="/propriedade_industrial/desenho_industrial">Desenho Industrial</a>
                                 </li>
                                 <li>
-                                        <a href="/propriedade_industrial/marca">Marca</a>
+                                    <a href="/propriedade_industrial/marca">Marca</a>
                                 </li>
                                 <li>
-                                        <a href="/propriedade_industrial/patente">Patente</a>
+                                    <a href="/propriedade_industrial/patente">Patente</a>
                                 </li>
                                 <li>
-                                        <a href="/propriedade_industrial/software">Software</a>
+                                    <a href="/propriedade_industrial/software">Software</a>
                                 </li>
                             </ul>
                         </li>
                         <li>
-                                <a href="#">Institucional</a>
+                            <a href="#">Institucional</a>
                         </li>
                         <li>
-                                <a href="/contato">Contato</a>
+                            <a href="/contato">Contato</a>
                         </li>
                         <li>
-                                <a href="/login"><i class="glyphicon glyphicon-log-in"></i> Entre</a>
+                            <a href="/login"><i class="glyphicon glyphicon-log-in"></i> Entre</a>
                         </li>
                     </ul>
                 </div>

@@ -2,14 +2,14 @@
 /**
  * Configuração geral
  */
-//echo "Entrou config<br>";
+
 require_once 'environment.php';
 
 global $config;
 
 $config = array();
 
-// Define e confiura o ambiente atual da plataforma
+// Define e configura o ambiente atual da plataforma
 if((ENVIRONMENT == 'development') || (ENVIRONMENT == 'debug')) {
     
     // Configura o ambiente de desenvolvimento
