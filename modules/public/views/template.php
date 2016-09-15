@@ -12,12 +12,12 @@
     <title>PlaIND :: Plataforma de Acompanhamento de Processos de Propriedade Industrial</title>
 
     <!-- Localmente -->
-    <!-- CSS do Bootstrap -->
-    <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
+    <!-- CSS do Bootstrap 3.3.6 -->
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
     <!-- CSS da Plataforma -->
-    <link href="../assets/css/modern-business.css" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/modern-business.css">
     <!-- Fonts -->
-    <link href="../assets/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="../assets/font-awesome/css/font-awesome.min.css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -44,7 +44,7 @@
                                 <span class="icon-bar"></span>
                                 <span class="icon-bar"></span>
                         </button>
-                    <a class="navbar-brand" href="/"><strong>PlaIND</strong></a>
+                    <a class="navbar-brand" href="/">Pla<strong>IND</strong></a>
                 </div>
 
                 <!-- Páginas Menu -->
@@ -89,7 +89,7 @@
     <!-- /cabeçalho-menu -->
     
     <!-- Corpo da página -->
-     <?php $this->loadViewInTemplate($controller, $viewName); ?>
+    <?php $this->loadViewInTemplate($controller, $viewName); ?>
     
     <!-- Rodapé -->
     <div class="container">
