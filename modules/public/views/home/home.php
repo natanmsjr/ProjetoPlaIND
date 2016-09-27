@@ -69,7 +69,7 @@
                     <div class="panel-body">
                         <h4>Desenho Industrial</h4>
                         <p>Acompanhe seu processo de proteção de Desenho Industrial</p>
-                        <a href="#" class="btn btn-primary">Saiba mais</a>
+                        <a href="/propriedade_industrial/desenho_industrial" class="btn btn-primary">Saiba mais</a>
                     </div>
                 </div>
             </div>
@@ -84,7 +84,7 @@
                     <div class="panel-body">
                         <h4>Marca</h4>
                         <p>Acompanhe seu processo de registro de Marca</p>
-                        <a href="#" class="btn btn-primary">Saiba mais</a>
+                        <a href="/propriedade_industrial/marca" class="btn btn-primary">Saiba mais</a>
                     </div>
                 </div>
             </div>
@@ -99,7 +99,7 @@
                     <div class="panel-body">
                         <h4>Patente</h4>
                         <p>Acompanhe seu processo de proteção de Patente</p>
-                        <a href="#" class="btn btn-primary">Saiba mais</a>
+                        <a href="/propriedade_industrial/patente" class="btn btn-primary">Saiba mais</a>
                     </div>
                 </div>
             </div>
@@ -114,7 +114,7 @@
                     <div class="panel-body">
                         <h4>Software</h4>
                         <p>Acompanhe seu processo de resgistro de Software</p>
-                        <a href="#" class="btn btn-primary">Saiba mais</a>
+                        <a href="/propriedade_industrial/software" class="btn btn-primary">Saiba mais</a>
                     </div>
                 </div>
             </div>

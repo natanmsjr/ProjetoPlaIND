@@ -5,10 +5,12 @@
  * carrega a plataforma iniciando o Core()
  */
 session_start();
-$_SESSION['module'] = 'restricted';
+//$_SESSION['module'] = 'restricted';
+$_SESSION['module'] = 'public';
 $_SESSION['controller'] = '';
 $_SESSION['action'] = '';
 $_SESSION['parameters'] = array();
+$_SESSION['login'] = false;
 
 // Definição do autoload
 spl_autoload_register(function ($class){

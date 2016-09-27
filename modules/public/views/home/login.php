@@ -22,19 +22,19 @@
             <div class="span4">
                 
                 <div class="well">
-                    <form action="#" method="POST" accept-charset="UTF-8" enctype="application/x-www-form-urlencoded" autocomplete="off">
+                    <form method="POST" accept-charset="UTF-8" enctype="application/x-www-form-urlencoded" autocomplete="off" action="../user_login.php">
                         <div class="control-group">
                             <div class="controls">	
                                 <label class="control-label" for="email">Email:</label>
-                                <input class="form-control"  type="email" id="email" placeholder="Email" style="width:260px"></input>
+                                <input class="form-control"  name="email" type="email" id="email" placeholder="Email" style="width:260px"></input>
                             </div>
                         </div>
                         <div class="control-group">
                             <div class="controls">
                                 <label class="control-label" for="senha">Senha:</label>
-                                <input type="password" class="form-control"  id="senha" placeholder="Senha" style="width:260px"></input>
+                                <input type="password" class="form-control"  name="senha" id="senha" placeholder="Senha" style="width:260px"></input>
                             </div>
-                            <input type="checkbox" id="remember"> Lembere-me</input>
+                            <input type="checkbox" id="remember"> Lembre-me</input>
                         </div>
                         <br/>
                         <div class="control-group">
