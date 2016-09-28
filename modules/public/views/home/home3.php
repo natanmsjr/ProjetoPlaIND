@@ -10,14 +10,14 @@
         <!-- Itens (Imagem) dos slides -->
         <div class="carousel-inner">
             <div class="item active">
-                <div class="fill" style="background-image:url(../assets/images/myCarousel/bg1.jpg);"></div>
+                <div class="fill" style="background-image:url(../assets/images/slider/bg1.jpg);"></div>
                 <div class="carousel-caption">
                     <!-- <h3>Legenda</h3>
                     <a class="btn btn-default" href="#">Read More</a> -->
                 </div>
             </div>
             <div class="item">
-                <div class="fill" style="background-image:url(../assets/images/myCarousel/bg2.jpg);"></div>
+                <div class="fill" style="background-image:url(../assets/images/slider/bg2.jpg);"></div>
                 <div class="carousel-caption">
                     <!-- <h3>Legenda</h3>
                     <a class="btn btn-default" href="#">Read More</a> -->
