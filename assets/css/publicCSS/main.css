@@ -158,30 +158,33 @@ ul.nostyle i {
   border: 0;
   border-radius: 0;
   margin-bottom: 0;
+  background: #3c8dbc;
+  color: #fff;
 }
 .navbar.navbar-default .navbar-toggle {
   margin-top: 10px;
+  color: #fff;
 }
 .navbar.navbar-default .navbar-brand {
   height: auto;
   padding: 15px 15px 15px;
+  color: #fff;
 }
 @media only screen and (min-width: 768px) {
   #main-menu.navbar-default {
-    background: rgba(255, 255, 255, 1);
+    background: #3c8dbc;
     /*-webkit-box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0);
     box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0);*/
   }
   #main-menu.navbar-default .navbar-nav > li > a {
     padding-top: 15px;
     padding-bottom: 15px;
+    color: #fff;
   }
   #main-menu.navbar-default .navbar-nav > li.active > a,
   #main-menu.navbar-default .navbar-nav > li.open > a,
   #main-menu.navbar-default .navbar-nav > li:hover > a {
-    background: transparent;
-    padding-top: 12px;
-    border-top: 3px solid #45aed6;
+    background: #367fa9;
   }
   #main-menu.navbar-default .dropdown-menu {
     padding: 0 20px;
