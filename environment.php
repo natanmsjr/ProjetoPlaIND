@@ -42,7 +42,7 @@ if(ENVIRONMENT == 'development') {
     define( 'HOSTNAME', 'localhost' );
     define( 'DB_NAME', 'plaind' );
     define( 'DB_USER', 'root' );
-    define( 'DB_PASSWORD', '8912' );
+    define( 'DB_PASSWORD', '' );
     define( 'DB_CHARSET', 'utf8' );
     
 }

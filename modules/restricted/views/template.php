@@ -16,12 +16,12 @@
     
     <!-- Localmente -->
     <!-- CSS do Bootstrap 3.3.6 -->
-    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/restrictedCSS/bootstrap.min.css">
     <!-- Tema da plataforma -->
-    <link rel="stylesheet" href="../assets/css/AdminLTE.min.css">
-    <link rel="stylesheet" href="../assets/css/skin-blue.min.css">
+    <link rel="stylesheet" href="../assets/css/restrictedCSS/AdminLTE.min.css">
+    <link rel="stylesheet" href="../assets/css/restrictedCSS/skin-blue.min.css">
     <!-- Ionicons -->
-    <link rel="stylesheet" href="../assets/css/ionicons.min.css">
+    <link rel="stylesheet" href="../assets/css/restrictedCSS/ionicons.min.css">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">    
 
@@ -426,11 +426,11 @@
     <!-- REQUIRED JS SCRIPTS -->
 
     <!-- jQuery 2.2.3 -->
-    <script src="../assets/js/jquery-2.2.3.min.js"></script>
+    <script src="../assets/js/restrictedJS/jquery-2.2.3.min.js"></script>
     <!-- Bootstrap 3.3.6 -->
-    <script src="../assets/js/bootstrap.min.js"></script>
+    <script src="../assets/js/restrictedJS/bootstrap.min.js"></script>
     <!-- AdminLTE App -->
-    <script src="../assets/js/app.min.js"></script>
+    <script src="../assets/js/restrictedJS/app.min.js"></script>
 
     <!-- Optionally, you can add Slimscroll and FastClick plugins.
          Both of these plugins are recommended to enhance the

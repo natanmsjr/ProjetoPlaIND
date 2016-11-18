@@ -15,45 +15,35 @@
     <link href="../assets/css/publicCSS/owl.carousel.css" rel="stylesheet">
     <link href="../assets/css/publicCSS/owl.transitions.css" rel="stylesheet">
     <link href="../assets/css/publicCSS/prettyPhoto.css" rel="stylesheet">
-    <link href="../assets/css/publicCSS/main.css" rel="stylesheet">
     <link href="../assets/css/publicCSS/responsive.css" rel="stylesheet">
     <link href="../assets/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="../assets/css/publicCSS/main.css" rel="stylesheet">
     <!--[if lt IE 9]>
     <script src="../assets/js/publicJS/html5shiv.js"></script>
     <script src="../assets/js/publicJS/respond.min.js"></script>
-    <![endif]-->       
-    <!-- <link rel="shortcut icon" href="images/ico/favicon.ico">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png"> -->
+    <![endif]-->
 </head><!--/head-->
 
 <body id="home" class="homepage">
-
     <header id="header">
         <nav id="main-menu" class="navbar navbar-default navbar-fixed-top" role="banner">
-            <div class="container">
+            <div class="container">                
                 <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="/">Pla<strong>IND</strong></a>
+                    <div class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <h4><i class="fa fa-list-ul"></i></h4>
+                    </div>
+                    <a class="logo" href="/"><img src="../assets/images/PlaIND.png"></a>
                 </div>
 				
                 <div class="collapse navbar-collapse navbar-right">
                     <ul class="nav navbar-nav">
-                        <li class="scroll active"><a href="#home">Home</a></li>
-                        <li class="scroll"><a href="#features">A Plataforma</a></li>
+                        <li class="scroll active"><a href="/#home">Home</a></li>
+                        <li class="scroll"><a href="#plataforma">A Plataforma</a></li>
                         <li class="scroll"><a href="#services">Propriedade Industrial</a></li>
                         <li class="scroll"><a href="#portfolio">Institucional</a></li>
                         <li class="scroll"><a href="#about">Sobre</a></li>
-                        <li class="scroll"><a href="#meet-team">Time</a></li>
                         <li class="scroll"><a href="#get-in-touch">Contato</a></li>
-                        <li><a href="/login"><i class="fa fa-sign-in"></i> Entre</a></li>
+                        <li><a href="/login"><i class="fa fa-user"></i> Login</a></li>
                     </ul>
                 </div>
             </div><!--/.container-->
@@ -65,26 +55,11 @@
 
     <footer id="footer">
         <div class="container">
-            <div class="row">
-                <div class="col-sm-6">
-                    &copy; 2014 Your Company. Designed by <a target="_blank" href="http://shapebootstrap.net/" title="Free Twitter Bootstrap WordPress Themes and HTML templates">ShapeBootstrap</a>
-                </div>
-                <div class="col-sm-6">
-                    <ul class="social-icons">
-                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                        <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                        <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-                        <li><a href="#"><i class="fa fa-behance"></i></a></li>
-                        <li><a href="#"><i class="fa fa-flickr"></i></a></li>
-                        <li><a href="#"><i class="fa fa-youtube"></i></a></li>
-                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                        <li><a href="#"><i class="fa fa-github"></i></a></li>
-                    </ul>
-                </div>
+            <hr>
+            <div class="col-sm-12">
+            &copy; 2016 Pla<strong>IND</strong>. Todos os direitos reservados. Desenvolvido por <a href="#">@NatanMacedo</a>
             </div>
-        </div>
+        </div>    
     </footer><!--/#footer-->
 
     <script src="../assets/js/publicJS/jquery.js"></script>

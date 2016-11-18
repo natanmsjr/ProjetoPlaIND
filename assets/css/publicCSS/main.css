@@ -38,6 +38,9 @@ a:focus {
   text-decoration: none;
   color: #2a95be;
 }
+.logo img{
+    padding-top: 5px;
+}
 hr {
   border-top: 1px solid #e5e5e5;
   border-bottom: 1px solid #fff;
@@ -110,7 +113,7 @@ hr {
   position: absolute;
   bottom: -1px;
   left: 0;
-  width: 40%;
+  width: 100%;
   border-bottom: 1px solid #45aed6;
 }
 ul.nostyle {
@@ -164,6 +167,15 @@ ul.nostyle i {
 .navbar.navbar-default .navbar-toggle {
   margin-top: 10px;
   color: #fff;
+  border-color:#fff;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  color: #fff;
+  background-color: #337ab7;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  color: #fff;
+  background-color: #337ab7;
 }
 .navbar.navbar-default .navbar-brand {
   height: auto;
@@ -184,7 +196,7 @@ ul.nostyle i {
   #main-menu.navbar-default .navbar-nav > li.active > a,
   #main-menu.navbar-default .navbar-nav > li.open > a,
   #main-menu.navbar-default .navbar-nav > li:hover > a {
-    background: #367fa9;
+    background: #337ab7;
   }
   #main-menu.navbar-default .dropdown-menu {
     padding: 0 20px;
@@ -307,7 +319,7 @@ ul.nostyle i {
   margin-top: 40px;
 }
 #cta2 {
-  background: #242a33 url(../images/cta2/cta2-bg.jpg) no-repeat 50% 50%;
+  background: #242a33 url(../assets/images/cta2/cta2-bg.jpg) no-repeat 50% 50%;
   background-size: cover;
   color: #fff;
   padding-top: 70px;
@@ -520,7 +532,7 @@ ul.nostyle i {
   transition: none;
 }
 #testimonial {
-  background: #333333 url(../images/testimonial/bg.jpg) no-repeat 0 0;
+  background: #333333 url(../assets/images/testimonial/bg.jpg) no-repeat 0 0;
   background-size: cover;
   padding: 100px 0;
   color: #fff;
@@ -542,7 +554,7 @@ ul.nostyle i {
 }
 #work-process {
   padding: 100px 0 50px;
-  background: #20222e url(../images/work-process/bg.jpg) no-repeat 0 0;
+  background: #20222e url(../assets/images/work-process/bg.jpg) no-repeat 0 0;
   background-size: cover;
   color: #fff;
 }
@@ -681,7 +693,7 @@ ul.nostyle i {
 }
 #animated-number {
   padding: 100px 0 70px;
-  background: #132125 url(../images/animated-number/bg.jpg) no-repeat 0 0;
+  background: #132125 url(../assets/images/animated-number/bg.jpg) no-repeat 0 0;
   background-size: cover;
   color: #fff;
 }
