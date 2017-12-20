@@ -1,61 +1,38 @@
-    <!-- Conteúdo da p´pagina de Login -->
-    <br>
-    <div class="container">
-
-        <!-- Page Heading/Breadcrumbs -->
-        <div class="row">
-            <div class="col-lg-12">
-                <br>
-                <ol class="breadcrumb  wow fadeInRight">
-                    <li><a href='/'>Início</a></li>
-                    <li class="active">Login</li>
-                </ol>
-            </div>
-        </div><!-- /.row -->
-        
-        <!-- column-title -->
-        <div class="row">
-             <div class="col-sm-12 wow fadeInLeft">
-                 <h3 class="column-title">Login</h3>
-             </div>
-        </div><!-- /.row -->
-        
-        <!-- content -->
-        <div id="login" class="container-fluid" style="width:500px">
+    <div id="entrar">
+        <!-- Conteúdo da página de Login -->
+        <div class="container">
+            <!-- Page Heading/Breadcrumbs -->
             <div class="row">
-                <div class="well">
-                    <form method="POST" accept-charset="UTF-8" enctype="application/x-www-form-urlencoded" autocomplete="off" action="../user_login.php">
-                    <div class="control-group">
-                        <div class="controls">	
-                            <label class="control-label" for="email">Email:</label>
-                            <input class="form-control"  name="email" type="email" id="email" placeholder="Email"></input>
-                        </div>
-                        <div class="controls">
-                            <label class="control-label" for="senha">Senha:</label>
-                            <input type="password" class="form-control"  name="senha" id="senha" placeholder="Senha"></input>
-                            <input type="checkbox" id="remember"> Lembre-me</input>
-                        </div>                            
-                    </div>
-                    <div class="control-group">
-                        <div class="controls text-right">
-                            <button type="submit" class="btn btn-primary"><strong>ENTRAR</strong>    <i class="fa fa-chevron-right"></i></button>
-                        </div>
-                    </div>
-                    <hr>
-                    <div class="col-lg-12">
-                        <div class="col-lg-6 text-center">
-                            <h4><a href="#"><h4>Esqueceu sua senha?</a></h4>
-                        </div>
-                        <div class="col-lg-6 text-center">
-                            <h4><a href="#"><i class="fa fa-plus"></i> Cadastre-se</a></h4>
-                        </div>
-                    </div>
-                    </form>
-                    <br>
-                </div>
+                <h4><a class="default" style="color: #fff; padding-left: 10px;" href="/"><i class="fa fa-chevron-left"></i> Voltar a Página Principal</a></h4>
             </div>
-        </div>
-        <br>
-        <br>
+            <!-- /.row -->
         
+            <div class="card card-container">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 card-header">
+                    <a href="/"><img src="/assets/images/PlaIND.png" alt="PlaIND"></a>
+                    <hr>
+                </div>
+                <div class="text-center">
+                    <h4>Acesse a Plataforma</h4>
+                </div>
+                <form class="form-signin" method="POST" accept-charset="UTF-8" enctype="application/x-www-form-urlencoded" autocomplete="on" action="#">
+                    <div class="form-group">
+                        <input type="text" id="cpf" class="form-control" placeholder="CPF" autocomplete="on" required pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" title="Digite o CPF no formato nnn.nnn.nnn-nn" />
+                        <input type="password" id="password" class="form-control" placeholder="Senha" required pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" />
+                        <div class="text-right">
+                            <a href="/login/nova_senha" class="forgot-password">Esqueci minha senha</a>
+                        </div>
+                        <br>
+                        <button class="btn btn-lg btn-primary btn-block btn-signin" type="submit">
+                            <span class="fa fa-sign-in"></span> Acessar</button>
+                    </div>
+                </form><!-- /form -->
+                <hr>
+                <div class="text-center">
+                    <h5><a href="/login/cadastro" class="forgot-password">
+                        <span class="fa fa-plus"></span> Novo Cadrastro</a>
+                    </h5>
+                </div>
+            </div><!-- /card-container -->
+        </div><!-- /container -->
     </div>

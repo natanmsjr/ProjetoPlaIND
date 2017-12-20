@@ -6,8 +6,12 @@ class homeController extends controller {
         parent::__construct();
     }
 
-    public function index($dados = array()) {        
+    public function index($dados = array()) {
+        $user = new Usuario();
+        
+        $dados = array (
+            'nome' => $user->getNome()
+        );
         $this->loadTemplate('home','home', $dados);
     }
-
 }

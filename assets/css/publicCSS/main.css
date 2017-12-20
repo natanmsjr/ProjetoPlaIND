@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,100,700,100italic,300italic,400italic,700italic);
+/*@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,100,700,100italic,300italic,400italic,700italic);*/
 /*
 Template Name: Multi
 Version: 1.0
@@ -7,9 +7,9 @@ Author URL: http://shapebootstrap.net
 */
 /*************************
 *******Typography******
-**************************/
+**************************/  
 body {
-  padding-top: 15px;
+  padding-top: 100px;
   background: #fff;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
@@ -33,8 +33,7 @@ a {
   -o-transition: color 400ms, background-color 400ms;
   transition: color 400ms, background-color 400ms;
 }
-a:hover,
-a:focus {
+a:hover, a:focus {
   text-decoration: none;
   color: #2a95be;
 }
@@ -59,9 +58,7 @@ hr {
   margin-bottom: 50px;
 }
 .section-header .section-title {
-  font-size: 44px;
   color: #272727;
-  text-transform: uppercase;
   position: relative;
   padding-bottom: 20px;
   margin: 0 0 20px;
@@ -91,15 +88,6 @@ hr {
 .btn {
   border-width: 0;
   border-bottom-width: 3px;
-  border-radius: 3px;
-}
-.btn.btn-primary {
-  background: #45aed6;
-  border-color: #2a95be;
-}
-.btn.btn-primary:hover,
-.btn.btn-primary:focus {
-  background: #2a95be;
 }
 .column-title {
   margin-top: 0;
@@ -157,31 +145,6 @@ ul.nostyle i {
 /*************************
 *******Header******
 **************************/
-.navbar.navbar-default {
-  border: 0;
-  border-radius: 0;
-  margin-bottom: 0;
-  background: #3c8dbc;
-  color: #fff;
-}
-.navbar.navbar-default .navbar-toggle {
-  margin-top: 10px;
-  color: #fff;
-  border-color:#fff;
-}
-.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-  color: #fff;
-  background-color: #337ab7;
-}
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-  color: #fff;
-  background-color: #337ab7;
-}
-.navbar.navbar-default .navbar-brand {
-  height: auto;
-  padding: 15px 15px 15px;
-  color: #fff;
-}
 @media only screen and (min-width: 768px) {
   #main-menu.navbar-default {
     background: #3c8dbc;
@@ -256,7 +219,6 @@ ul.nostyle i {
   margin-top: 180px;
   font-size: 36px;
   line-height: 1;
-  text-transform: uppercase;
   color: #fff;
 }
 #main-slider .slider-inner h2 > span {
@@ -334,9 +296,6 @@ ul.nostyle i {
 }
 #cta2 h2 > span {
   color: #45aed6;
-}
-#features {
-  padding: 100px 0;
 }
 #features .media.service-box:first-child {
   margin-top: 80px;
@@ -772,7 +731,6 @@ ul.nostyle i {
   color: #272727;
   font-weight: bold;
   line-height: 1;
-  text-transform: uppercase;
 }
 #pricing ul.pricing.featured {
   background: #222534;
@@ -835,7 +793,6 @@ ul.nostyle i {
   font-size: 12px;
   display: block;
   margin-bottom: 5px;
-  text-transform: uppercase;
   color: #45aed6;
 }
 #blog .blog-post.blog-large .entry-title {
@@ -866,7 +823,6 @@ ul.nostyle i {
   font-size: 12px;
   display: block;
   margin-bottom: 5px;
-  text-transform: uppercase;
   color: #45aed6;
 }
 #blog .blog-post.blog-media .entry-title {
@@ -923,7 +879,7 @@ ul.nostyle i {
 ************************/
 #footer {
   padding-top: 30px;
-  padding-bottom: 30px;
+  /*padding-bottom: 30px;*/
   color: #fff;
   background: #2e2e2e;
 }

@@ -1,5 +1,15 @@
 <?php
 
+/*
+ *---------------------------------------------------------------
+ * propriedade_industrialController.php
+ *---------------------------------------------------------------
+ *
+ * @autor: Natanael Macedo da Silva Junior
+ * @version: 1.0
+ * 
+ */
+
 class propriedade_industrialController extends controller {
 
     public function __construct() {
@@ -28,6 +38,21 @@ class propriedade_industrialController extends controller {
     public function software($dados = array()) {
                 
         $this->loadTemplate('propriedade_industrial', 'software', $dados);
+    }
+    
+    public function transferencia_de_tecnologia($dados = array()) {
+                
+        $this->loadTemplate('propriedade_industrial', 'tranferencia_de_tecnologia', $dados);
+    }
+    
+    public function instituicoes_e_setores($dados = array()) {
+                
+        $this->loadTemplate('propriedade_industrial', 'instituicoes_e_setores', $dados);
+    }
+    
+    public function informacoes($dados = array()) {
+                
+        $this->loadTemplate('propriedade_industrial', 'informacoes', $dados);
     }
 
 }

@@ -1,11 +1,10 @@
     <div class="container">
-
         <!-- Page Heading/Breadcrumbs -->
         <div class="row">
             <br>
             <div class="col-lg-12">
                 <ol class="breadcrumb">
-                    <li><a href="/">Início</a></li>
+                    <li><a href="/"><span class="fa fa-home"></span></a></li>
                     <li><a href="/propriedade_industrial">Propriedade Industrial</a></li>
                     <li class="active">Software</li>
                 </ol>
@@ -17,7 +16,9 @@
 
             <div class="col-lg-12">
 
-                <h2 class="page-header"><strong>Software</strong></h2>
+                <div class="column-title">
+                     <h3><strong>Software</strong></h3>
+                </div>
 
                 <div class="text-justify">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc augue arcu, aliquam ut sollicitudin at, maximus sit amet nunc. Ut sodales est sed velit venenatis porttitor. Sed placerat suscipit sodales. Curabitur pretium quam et ipsum ornare sagittis. Sed bibendum, augue varius suscipit cursus, justo purus volutpat metus, eget faucibus ante libero eu ligula. Etiam sit amet pretium enim. In justo nisi, suscipit vel maximus ac, luctus in ligula. Curabitur aliquet commodo ipsum a sollicitudin. Suspendisse imperdiet urna quam. Nulla id bibendum nunc. Ut luctus sed urna eu viverra. Curabitur porttitor ultrices lectus, in feugiat leo pulvinar at. Vestibulum ut convallis lectus. Sed dictum purus a vestibulum viverra.</p>

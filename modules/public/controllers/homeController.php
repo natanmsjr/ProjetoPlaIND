@@ -1,5 +1,15 @@
 <?php
 
+/*
+ *---------------------------------------------------------------
+ * homeController.php
+ *---------------------------------------------------------------
+ *
+ * @autor: Natanael Macedo da Silva Junior
+ * @version: 1.0
+ * 
+ */
+
 class homeController extends controller {
 
     public function __construct() {

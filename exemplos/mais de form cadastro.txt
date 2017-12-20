@@ -1,0 +1,142 @@
+<form class="form-horizontal">
+
+        <fieldset>
+
+        <!-- Form Name -->
+        <legend>Novo Cadastro</legend>
+
+        <!-- Text input-->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="textinput">Nome Completo</label>  
+            <div class="col-md-6">
+                <input id="textinput" name="textinput" placeholder="" class="form-control input-md" required="" type="text">
+                <span class="help-block">Ex.: José da Silva</span>  
+            </div>
+        </div>
+
+        <!-- Text input-->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="Data_Nascimento">Data de Nascimento</label>  
+            <div class="col-md-4">
+                <input id="Data_Nascimento" name="Data_Nascimento" placeholder="dd/mm/aaaa" class="form-control input-md" required="" type="text">
+                <span class="help-block">Digite apenas números, sem barras ou traços.</span>  
+            </div>
+        </div>
+
+        <!-- Multiple Radios (inline) -->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="Sexo">Sexo</label>
+            <div class="col-md-4"> 
+                <label class="radio-inline" for="Sexo-0">
+                    <input name="Sexo" id="Sexo-0" value="M" checked="checked" type="radio">
+                    Masculino
+                </label> 
+                <label class="radio-inline" for="Sexo-1">
+                    <input name="Sexo" id="Sexo-1" value="F" type="radio">
+                    Feminino
+                </label>
+            </div>
+        </div>
+
+        <!-- Text input-->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="CPF">CPF</label>  
+            <div class="col-md-4">
+                <input id="CPF" name="CPF" placeholder="000.0000.000-00" class="form-control input-md" required="" type="text">
+                <span class="help-block">Digite o número sem pontos ou traços.</span>  
+            </div>
+        </div>
+
+        <!-- Text input-->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="Endereço">Endereço</label>  
+            <div class="col-md-6">
+                <input id="Endereço" name="Endereço" placeholder="Rua Rio de Janeiro" class="form-control input-md" required="" type="text">
+                <span class="help-block">Endereço válido.</span>  
+            </div>
+        </div>
+
+        <!-- Text input-->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="Número">Número</label>  
+            <div class="col-md-2">
+                <input id="Número" name="Número" placeholder="nº 304" class="form-control input-md" type="text">
+                <span class="help-block">help</span>  
+            </div>
+        </div>
+
+        <!-- Text input-->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="Complemento">Complemento</label>  
+            <div class="col-md-4">
+                <input id="Complemento" name="Complemento" placeholder="Bloco A, Número 001" class="form-control input-md" type="text">
+            </div>
+        </div>
+
+        <!-- Text input-->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="CEP">CEP</label>  
+            <div class="col-md-4">
+                <input id="CEP" name="CEP" placeholder="40000-000" class="form-control input-md" type="text">
+                <span class="help-block">Digite apenas números, sem pontos ou traços.</span>  
+            </div>
+        </div>
+
+        <!-- Text input-->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="Telefone">Telefone</label>  
+            <div class="col-md-4">
+                <input id="Telefone" name="Telefone" placeholder="(00)00000-0000" class="form-control input-md" required="" type="text">
+                <span class="help-block">Telefone de fácil contato.</span>  
+            </div>
+        </div>
+
+        <!-- Text input-->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="Email">E-mail</label>  
+            <div class="col-md-4">
+                <input id="Email" name="Email" placeholder="exemplo@exemplo.com.br" class="form-control input-md" required="" type="text">
+                <span class="help-block">Insira um e-mail válido</span>  
+            </div>
+        </div>
+
+        <!-- Text input-->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="Confirmar_Email">Confirmar E-mail</label>  
+            <div class="col-md-4">
+                <input id="Confirmar_Email" name="Confirmar_Email" placeholder="exemplo@exemplo.com.br" class="form-control input-md" required="" type="text">
+            </div>
+        </div>
+
+        <!-- Password input-->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="Senha">Senha</label>
+            <div class="col-md-4">
+                <input id="Senha" name="Senha" placeholder="" class="form-control input-md" required="" type="password">
+                <span class="help-block">Insira uma senha.</span>
+            </div>
+        </div>
+
+        <!-- Password input-->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="Confirmar_Sehha">Confirmar senha</label>
+            <div class="col-md-4">
+                <input id="Confirmar_Sehha" name="Confirmar_Sehha" placeholder="" class="form-control input-md" type="password">
+            </div>
+        </div>
+
+        <!-- Button (Double) -->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="Cadastrar"></label>
+            <div class="col-md-8">
+                <button id="Cadastrar" name="Cadastrar" class="btn btn-success">Cadastrar</button>
+                <button id="Redefinir" name="Redefinir" class="btn btn-default">Redefinir</button>
+            </div>
+        </div>
+
+        </fieldset>
+            
+        </form>
+
+        <br>
+    </div>

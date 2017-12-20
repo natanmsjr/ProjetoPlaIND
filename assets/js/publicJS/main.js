@@ -36,7 +36,7 @@ jQuery(function($) {'use strict';
 	});
 
 	// accordian
-	$('.accordion-toggle').on('click', function(){
+	/*$('.accordion-toggle').on('click', function(){
 		$(this).closest('.panel-group').children().each(function(){
 		$(this).find('>.panel-heading').removeClass('active');
 		 });
@@ -126,12 +126,12 @@ jQuery(function($) {'use strict';
 	      //start again
 	      start();
 	    }
-	});
+	});*/
 
 	//Initiat WOW JS
 	new WOW().init();
-	//smoothScroll
-	smoothScroll.init();
+	/*//smoothScroll
+	smoothScroll.init();*/
 
 	// portfolio filter
 	$(window).load(function(){'use strict';
@@ -151,7 +151,7 @@ jQuery(function($) {'use strict';
 		});
 	});
 
-	$(document).ready(function() {
+	/*$(document).ready(function() {
 		//Animated Progress
 		$('.progress-bar').bind('inview', function(event, visible, visiblePartX, visiblePartY) {
 			if (visible) {
@@ -190,7 +190,7 @@ jQuery(function($) {'use strict';
 				$this.unbind('inview');
 			}
 		});
-	});
+	});*/
 
 	// Contact form
 	var form = $('#main-contact-form');
@@ -207,7 +207,7 @@ jQuery(function($) {'use strict';
 		});
 	});
 
-	//Pretty Photo
+	/*//Pretty Photo
 	$("a[rel^='prettyPhoto']").prettyPhoto({
 		social_tools: false
 	});
@@ -228,6 +228,6 @@ jQuery(function($) {'use strict';
 			map: map
 		});
 	}
-	google.maps.event.addDomListener(window, 'load', initialize_map);
+	google.maps.event.addDomListener(window, 'load', initialize_map);*/
 
 });

@@ -1,14 +1,6 @@
-<?php
-
-    $sql = "SELECT * FROM users";
-    $sql = $this->db->query($sql);
-    
-    if($sql->rowCount() > 0){
-        $reg = $sql->fetch();
-    }
-?>
-
-<div class="container">
+    <br>
+    <br>
+    <div class="container">
 
         <div class="row">
 
