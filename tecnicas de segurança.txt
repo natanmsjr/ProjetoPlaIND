@@ -1,0 +1,5 @@
+Segurança
+	erro de senha
+	csrf_token
+	validação de dados externos
+	

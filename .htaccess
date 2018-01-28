@@ -2,8 +2,8 @@ RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.*)$ /index.php/$1 [L]
-ErrorDocument 400 views/404.php
-ErrorDocument 401 views/401.php
-ErrorDocument 404 views/404.php
-ErrorDocument 403 views/404.php
-ErrorDocument 500 views/404.php
+ErrorDocument 400 /plaind/views/erro/erro_400.php
+ErrorDocument 401 /plaind/views/erro/erro_401.php
+ErrorDocument 404 /plaind/views/erro/erro_404.php
+ErrorDocument 403 /plaind/views/erro/erro_403.php
+ErrorDocument 500 /plaind/views/erro/erro_500.php

@@ -1,3 +1,3 @@
-# ProjetoK-K
+# ProjetoPlaIND
 
-Teste para o projeto do site K&K
+Teste para o projeto do site PlaIND

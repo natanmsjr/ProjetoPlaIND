@@ -15,4 +15,4 @@
  */
 
 // Solicita o arquivo de configuração
-require_once 'config.php';
+require_once 'sistema/config.php';
